@@ -179,6 +179,8 @@ html {
 		color: white;
 	}
 
+
+
 }
 
 .first {
@@ -189,7 +191,7 @@ html {
 .h2 {
 	font-size: 4rem;
 	text-align: center;
-	
+	margin: auto;
 
 }
 
@@ -234,6 +236,7 @@ html {
 
 .second{
 	background-color: #e4fdf9;
+	padding-top: 16px;
 }
 
 .second-item {
@@ -262,6 +265,11 @@ html {
 		display: none;
 	}
 
+	.second-item {
+		width: 90%;
+		margin:auto;
+	}
+
 	.header-btn + .header-btn {
 		margin-left: 0px;
 	}
@@ -288,4 +296,20 @@ html {
 	.first {
 		padding: 0;
 	}
+
+	.first-box, .second-box {
+		display: block;
+	}
+
+	.first-item {
+		margin: 36px auto;
+
+	}
+}
+
+.gallary-main {
+	max-width: 1000px;
+	margin: auto;
+	background-color: #ecfcff;
+	border: 1px solid #badfdb;
 }
